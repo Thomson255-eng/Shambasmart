@@ -1,0 +1,6 @@
+{
+"appId": "com.ie.shambasmart",
+"appName": "I & E ShambaSmart",
+"webDir": ".",
+"bundledWebRuntime": false
+}
