@@ -1,0 +1,19 @@
+SHAMBASMART ANDROID PROJECT
+
+Hii ni mradi wa Android unaofungasha mfano wa sasa wa ShambaSmart ndani ya app inayofunguka kwenye simu, badala ya kuhitaji kufungua Chrome.
+
+JINSI YA KUPATA APK KWA KUTUMIA SIMU (kupitia GitHub Actions)
+1. Pakua ZIP hii na ifungue (Extract).
+2. Fungua github.com kwenye browser, ingia au tengeneza akaunti.
+3. Tengeneza repository mpya iitwayo ShambaSmart.
+4. Pakia mafaili yote ya ndani ya folda ShambaSmartAndroid kwenye repository (si ZIP iliyofungwa).
+5. Fungua tab Actions kwenye repository. Ruhusu Actions ikiwa inauliza.
+6. Chagua workflow “Build ShambaSmart APK” kisha bonyeza “Run workflow”. Kama workflow haionekani, angalia .github/workflows/build-apk.yml ipo kwenye repository.
+7. Subiri build ikamilike kwa alama ya kijani. Fungua run hiyo, chini ya Artifacts pakua “ShambaSmart-APK”.
+8. Fungua ZIP ya artifact na upate app-debug.apk. Bonyeza APK ili kusakinisha. Android inaweza kukuuliza uruhusu kusakinisha app kutoka browser/files.
+
+MUHIMU
+- Hii ni APK ya majaribio (debug), haijasainiwa kwa usambazaji rasmi wa Play Store.
+- Inafungua mfano wa ShambaSmart uliopo kwenye index.html na huhifadhi data ndani ya app kwenye kifaa hicho.
+- Akaunti halisi za Ibrahim na Esromu, ruhusa salama za wafanyakazi, hifadhidata ya pamoja na usawazishaji wa mtandaoni HAVIJATEKELEZWA bado. Usitumie hii kama mfumo wa pamoja wa fedha hadi vipengele hivyo vijengwe na kujaribiwa.
+- Data za app zinaweza kupotea ukiondoa app; tumia kipengele cha kupakua nakala mara kwa mara.
